@@ -25,4 +25,4 @@ A simple Rick and Morty character viewing application that allows you to search 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/rick-and-morty-character-viewer.git
+[git clone https://github.com/isc1998/rick-and-morty-character-viewer.git](https://github.com/isc1998/rickproject.git)
