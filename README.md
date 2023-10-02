@@ -23,6 +23,14 @@ A simple Rick and Morty character viewing application that allows you to search 
 ## Installation
 
 1. Clone the repository:
+[git clone https://github.com/isc1998/rick-and-morty-character-viewer.git]
 
+2. Install the app
 ```bash
-[git clone https://github.com/isc1998/rick-and-morty-character-viewer.git](https://github.com/isc1998/rickproject.git)
+watchman watch-del-all
+rm -rf yarn.lock package-lock.json node_modules
+rm -rf android/app/build
+rm ios/Pods ios/Podfile.lock
+rm -rf ~/Library/Developer/Xcode/DerivedData
+npm install && cd ios && pod update && cd ..
+npm start -- --reset-cache
